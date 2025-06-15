@@ -188,7 +188,7 @@ function buyNow() {
     const total = cart.reduce((sum, item) => sum + (item.price * item.quantity), 0);
     const message = `Hello DD Organic Products! 🌱\n\nI'd like to order:\n\n${orderDetails}\n\n*Total: ₹${total}*\n\nPlease confirm availability and delivery details.`;
     
-    const whatsappNumber = '919400605440'; // Replace with actual number
+    const whatsappNumber = '917994692461'; // Replace with actual number
     const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(message)}`;
     
     window.open(whatsappUrl, '_blank');
